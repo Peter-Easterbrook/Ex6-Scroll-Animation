@@ -12,11 +12,11 @@ body {
   justify-content: center;
   min-height: 100vh;
   margin: 0;
-  background: rgb(228, 231, 235);
+  background: rgb(10, 35, 81);
   background: linear-gradient(
-    360deg,
-    rgba(228, 231, 235, 1) 0%,
-    rgba(161, 172, 184, 1) 100%
+    180deg,
+    rgba(10, 35, 81, 1) 0%,
+    rgba(109, 154, 237, 1) 100%
   );
   overflow-x: hidden;
 }
@@ -29,13 +29,10 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background: #aaa;
 }
-section {
-  height: 50vh;
-  overflow: auto;
-}
 
 h1 {
   margin: 10px;
+  color: #fff;
 }
 
 .box {
