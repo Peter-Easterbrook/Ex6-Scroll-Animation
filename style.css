@@ -33,6 +33,7 @@ body::-webkit-scrollbar-thumb {
 h1 {
   margin: 10px;
   color: #fff;
+  font-weight: 400;
 }
 
 .box {
@@ -48,6 +49,7 @@ h1 {
   bax-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
   transform: translateX(400%);
   transition: transform 0.4s ease;
+  border: 1px solid #fff;
 }
 
 .box:nth-of-type(even) {
